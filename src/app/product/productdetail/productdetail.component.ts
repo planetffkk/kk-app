@@ -13,9 +13,7 @@ export class ProductdetailComponent {
 
   product:any
 
-  constructor(
-    private route: ActivatedRoute,
-  ) {}
+  constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
     this.route.paramMap.subscribe(params => {

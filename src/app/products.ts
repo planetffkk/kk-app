@@ -8,20 +8,26 @@
 export const products = [
     {
       id: 1,
-      name: 'Phone XL',
-      price: 799,
-      description: 'A large phone with one of the best screens'
+      name: '奈良の桜並木其の壱',
+      price: '交通費 800円',
+      description: '超景色いいです!是非お越し下さいｗ'
     },
     {
       id: 2,
-      name: 'Phone Mini',
-      price: 699,
-      description: 'A great phone with one of the best cameras'
+      name: '奈良の桜並木其の弍',
+      price: '交通費 800円',
+      description: '超景色いいです!是非お越し下さいｗ'
     },
     {
       id: 3,
-      name: 'Phone Standard',
-      price: 299,
-      description: ''
+      name: '奈良の桜並木其の参',
+      price: '交通費 800円',
+      description: '超景色いいです!是非お越し下さいｗ'
+    },
+    {
+      id: 4,
+      name: '奈良の桜並木其の四',
+      price: '交通費 800円',
+      description: '超景色いいです!是非お越し下さいｗ'
     }
 ];
