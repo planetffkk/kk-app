@@ -63,6 +63,15 @@ class FakeDb {
         ]
     }
 
+    async initDb() {
+      await this.cleanDb()
+      this.pushProductToDb()
+    }
+
+    async cleanDb(){
+      await Product.deleteMany({})
+    }
+
     pushProductToDb(){
         this.products.forEach(
             (product) => {
